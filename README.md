@@ -8,10 +8,10 @@ This repository is where I document everything I learn while diving deep into ba
 ## ✅ Topics Covered So Far
 
 ### Node.js Fundamentals
-- [ ] What is Node.js?
-- [ ] Node.js Installation
-- [ ] Hello World in Node.js
-- [ ] Modules in Node.js
+- [x] What is Node.js?
+- [x] Node.js Installation
+- [x] Hello World in Node.js
+- [x] Modules in Node.js
 - [ ] File Handling in Node.js
 - [ ] How Node.js Works?
 
