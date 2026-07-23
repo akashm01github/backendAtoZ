@@ -1,0 +1,21 @@
+const express = require('express');
+
+
+const app = express();
+
+app.get('/',(req,res)=>{
+    res.send("Home Page")
+})
+
+app.get('/about',(req,res)=>{
+    res.send("About Page")
+})
+
+app.get('/contact',(req,res)=>{
+    res.send("Contact Page");
+    console.log("Contact Page Appear")
+})
+
+app.listen(3000,()=>{
+    console.log('Server is Running on Port 3000.......')
+})
