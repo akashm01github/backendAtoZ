@@ -8,7 +8,8 @@ const handelGenerateURL = async (req, res) => {
     await urlModel.create({
         shortID: shortid,
         redirectURL: url,
-        visitHistory: []
+        visitHistory: [],
+        createdBy:req.user._id
     });
 
 

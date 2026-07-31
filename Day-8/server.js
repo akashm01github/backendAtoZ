@@ -5,6 +5,9 @@ const staticRoute = require('./routes/static.route');
 const ejs = require('ejs');
 
 const path = require("path");
+const userRoute = require('./routes/user.route');
+const cookieParser = require('cookie-parser');
+const { restrictToLoggedInUserOnly, checkAuth } = require('./middleware/auth.middleware');
 
 
 
@@ -12,6 +15,8 @@ const app = express();
 
 app.use(express.json());
 app.use(express.urlencoded());
+
+app.use(cookieParser());
 
 
 //! SET UP EJS
@@ -26,10 +31,13 @@ connectDB();
 
 
 //! ROUTES 
-app.use('/url',urlRoute);
+app.use('/url',restrictToLoggedInUserOnly,urlRoute);
 
 //STATIC ROUTE
-app.use('/',staticRoute) 
+app.use('/',checkAuth,staticRoute); 
+
+
+app.use('/user',userRoute);
 
 
 app.listen(3000,()=>{

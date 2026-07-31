@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        html,
+        body {
+          height: 100%;
+          width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <h1>Login</h1>
+    <form action="/user/login", method="post">
+        <input type="email" name="email" placeholder="Enter Your Email">
+        <input type="text" name="password" placeholder="Enter Your Password">
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
