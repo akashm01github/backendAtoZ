@@ -32,14 +32,16 @@ const handelUserLogin = async (req, res) => {
         return res.render("login");
     }
 
-    const sessionId = uuidv4();
+   
 
-    setUser(sessionId,user);
-
-    res.cookie('uid',sessionId);
+    const token = setUser(user);
 
 
-    return res.render("home");
+
+    res.cookie('uid',token);
+
+
+    return res.redirect("/");
 }
 
 

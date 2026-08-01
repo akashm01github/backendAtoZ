@@ -11,8 +11,13 @@ router.get('/',async(req,res)=>{
     }
     else{
         const allURL = await urlModel.find(
-            {createdBy:req.user.id}
+            {createdBy:req.user._id}
         );
+
+        // console.log('req.user.id:', req.user._id);
+
+
+        console.log(allURL)
         res.render('home',{urls:allURL});
     }
     
