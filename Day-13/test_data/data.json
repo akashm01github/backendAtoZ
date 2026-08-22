@@ -1,0 +1,102 @@
+[
+  {
+    "name": "Rahul Sharma",
+    "phone": "9876543210",
+    "email": "rahul@gmail.com",
+    "address": {
+      "City": "Delhi",
+      "State": "Delhi",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Priya Singh",
+    "phone": "8765432109",
+    "email": "priya@gmail.com",
+    "address": {
+      "City": "Mumbai",
+      "State": "Maharashtra",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Arjun Das",
+    "phone": "7654321098",
+    "email": "arjun@gmail.com",
+    "address": {
+      "City": "Kolkata",
+      "State": "West Bengal",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Sneha Roy",
+    "phone": "9123456780",
+    "email": "sneha@gmail.com",
+    "address": {
+      "City": "Bengaluru",
+      "State": "Karnataka",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Amit Verma",
+    "phone": "9988776655",
+    "email": "amit@gmail.com",
+    "address": {
+      "City": "Pune",
+      "State": "Maharashtra",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Riya Chatterjee",
+    "phone": "8899776655",
+    "email": "riya@gmail.com",
+    "address": {
+      "City": "Chennai",
+      "State": "Tamil Nadu",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Vikash Kumar",
+    "phone": "7788990011",
+    "email": "vikash@gmail.com",
+    "address": {
+      "City": "Patna",
+      "State": "Bihar",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Ananya Gupta",
+    "phone": "9090909090",
+    "email": "ananya@gmail.com",
+    "address": {
+      "City": "Hyderabad",
+      "State": "Telangana",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Sourav Banerjee",
+    "phone": "8899887766",
+    "email": "sourav@gmail.com",
+    "address": {
+      "City": "Bhubaneswar",
+      "State": "Odisha",
+      "Country": "India"
+    }
+  },
+  {
+    "name": "Neha Kapoor",
+    "phone": "7998877665",
+    "email": "neha@gmail.com",
+    "address": {
+      "City": "Jaipur",
+      "State": "Rajasthan",
+      "Country": "India"
+    }
+  }
+]
